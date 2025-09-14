@@ -6,19 +6,19 @@ const steps = [
     number: "01",
     title: "Plan & Conceptualize",
     description: "Start with your ideas and transform them into a clear creative vision using our intuitive planning tools.",
-    image: "https://images.unsplash.com/photo-1729710877242-6305c22c18b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwZGVzaWduJTIwcHJvY2VzcyUyMHdvcmtmbG93fGVufDF8fHx8MTc1Nzg1NDExOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    image: "/Design_planning_conceptualization_illustration_92bcf755.png"
   },
   {
     number: "02", 
     title: "Design & Create",
     description: "Bring your vision to life with our powerful design tools and extensive library of assets and templates.",
-    image: "https://images.unsplash.com/photo-1658863025658-4a259cc68fc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBncmFwaGljJTIwZGVzaWduJTIwdG9vbHN8ZW58MXx8fHwxNzU3ODU0MTE5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    image: "/Design_creation_tools_interface_d82b560a.png"
   },
   {
     number: "03",
     title: "Share & Collaborate", 
     description: "Collaborate with your team in real-time and share your creations with the world across any platform.",
-    image: "https://images.unsplash.com/photo-1753162657289-6569cd1da479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHRlYW0lMjBjb2xsYWJvcmF0aW9uJTIwZGVzaWdufGVufDF8fHx8MTc1Nzg1NDExOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    image: "/Design_collaboration_sharing_illustration_9171da27.png"
   }
 ];
 
