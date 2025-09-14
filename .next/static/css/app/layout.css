@@ -263,12 +263,14 @@
   width: auto;
 }
 .w-fit {
+  width: -moz-fit-content;
   width: fit-content;
 }
 .w-full {
   width: 100%;
 }
 .w-max {
+  width: -moz-max-content;
   width: max-content;
 }
 .w-px {
@@ -281,6 +283,7 @@
   max-width: calc(100% - 2rem);
 }
 .max-w-max {
+  max-width: -moz-max-content;
   max-width: max-content;
 }
 .min-w-\[8rem\] {
@@ -540,13 +543,15 @@
   --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
 }
 .bg-clip-text {
-  background-clip: text;
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 .fill-current {
   fill: currentcolor;
 }
 .object-cover {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .p-\[3px\] {
   padding: 3px;
@@ -636,7 +641,7 @@
   outline-width: 1px;
 }
 .transition {
-  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
   transition-timing-function: var(--tw-ease, ease);
   transition-duration: var(--tw-duration, 0s);
 }
@@ -719,7 +724,8 @@
 }
 .select-none {
   -webkit-user-select: none;
-  user-select: none;
+  -moz-user-select: none;
+       user-select: none;
 }
 .group-focus-within\/menu-item\:opacity-100 {
   &:is(:where(.group\/menu-item):focus-within *) {
