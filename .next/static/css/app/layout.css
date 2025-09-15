@@ -1503,6 +1503,10 @@
   .fill-current {
     fill: currentcolor;
   }
+  .object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
   .object-cover {
     -o-object-fit: cover;
        object-fit: cover;
@@ -3071,6 +3075,11 @@
   .sm\:flex {
     @media (width >= 40rem) {
       display: flex;
+    }
+  }
+  .sm\:h-96 {
+    @media (width >= 40rem) {
+      height: calc(var(--spacing) * 96);
     }
   }
   .sm\:max-w-lg {
