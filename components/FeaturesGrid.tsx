@@ -3,38 +3,38 @@ import { Palette, Layers, Zap, Users, Download, Shield } from "lucide-react";
 const features = [
   {
     icon: Palette,
-    title: "Advanced Design Tools",
-    description: "Professional-grade tools for creating stunning visuals with precision and creativity.",
+    title: "Pro Design Tools",
+    description: "Everything you need to create",
     color: "bg-orange-100 text-orange-600"
   },
   {
     icon: Layers,
     title: "Smart Layers",
-    description: "Organize your work with intelligent layer management and automatic grouping.",
+    description: "Organize with intelligence",
     color: "bg-blue-100 text-blue-600"
   },
   {
     icon: Zap,
     title: "Lightning Fast",
-    description: "Optimized performance ensures smooth workflow even with complex projects.",
+    description: "Smooth, optimized workflow",
     color: "bg-yellow-100 text-yellow-600"
   },
   {
     icon: Users,
     title: "Team Collaboration",
-    description: "Work together seamlessly with real-time collaboration and version control.",
+    description: "Real-time teamwork",
     color: "bg-green-100 text-green-600"
   },
   {
     icon: Download,
     title: "Export Anywhere",
-    description: "Export your designs in any format for web, print, or mobile applications.",
+    description: "Any format, any platform",
     color: "bg-purple-100 text-purple-600"
   },
   {
     icon: Shield,
     title: "Secure & Private",
-    description: "Your creative work is protected with enterprise-grade security and privacy.",
+    description: "Enterprise-grade protection",
     color: "bg-pink-100 text-pink-600"
   }
 ];
@@ -62,18 +62,18 @@ export function FeaturesGrid() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="group p-8 bg-white border border-gray-100 rounded-2xl hover:shadow-xl hover:shadow-gray-100 transition-all duration-300 hover:-translate-y-1"
+                className="group p-6 bg-white border border-gray-100 rounded-2xl hover:shadow-xl hover:shadow-gray-100 transition-all duration-300 hover:-translate-y-1"
               >
-                <div className="space-y-4">
-                  <div className={`w-12 h-12 ${feature.color} rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200`}>
-                    <feature.icon className="h-6 w-6" />
+                <div className="space-y-4 text-center">
+                  <div className={`w-16 h-16 ${feature.color} rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200 mx-auto`}>
+                    <feature.icon className="h-8 w-8" />
                   </div>
                   
-                  <h3 className="text-xl font-semibold text-gray-900 group-hover:text-orange-600 transition-colors duration-200">
+                  <h3 className="text-lg font-semibold text-gray-900 group-hover:text-orange-600 transition-colors duration-200">
                     {feature.title}
                   </h3>
                   
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-sm text-gray-500 font-medium">
                     {feature.description}
                   </p>
                 </div>
