@@ -7,9 +7,9 @@ export function Hero() {
       
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left side - Content */}
-            <div className="space-y-4 md:space-y-8">
+          <div className="flex justify-center">
+            {/* Content */}
+            <div className="space-y-4 md:space-y-8 text-center max-w-4xl">
               <div className="space-y-3 md:space-y-6">
                 <div className="inline-flex items-center px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium">
                   ✨ New: Advanced design tools available
@@ -60,19 +60,6 @@ export function Hero() {
                   <span>Launch Faster</span>
                 </div>
               </div>
-            </div>
-            
-            {/* Right side - Hero image */}
-            <div className="relative">
-              <div className="relative rounded-2xl overflow-hidden">
-                <img
-                  src="/attached_assets/generated_images/Minimal_workflow_illustration_1f60ef17.png"
-                  alt="Simple workflow illustration showing brand creation process from input to final assets"
-                  className="w-full h-80 sm:h-96 object-contain"
-                />
-                
-              </div>
-              
             </div>
           </div>
         </div>
