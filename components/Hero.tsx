@@ -51,16 +51,16 @@ export function Hero() {
               
               <div className="flex items-center space-x-8 text-sm text-gray-500">
                 <div className="flex items-center space-x-2">
-                  <span className="font-semibold text-gray-900">50k+</span>
-                  <span>Designers</span>
+                  <span className="font-semibold text-gray-900">✨</span>
+                  <span>Coming Soon</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="font-semibold text-gray-900">1M+</span>
-                  <span>Projects</span>
+                  <span className="font-semibold text-gray-900">🎨</span>
+                  <span>Design Better</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="font-semibold text-gray-900">99%</span>
-                  <span>Satisfaction</span>
+                  <span className="font-semibold text-gray-900">🚀</span>
+                  <span>Launch Faster</span>
                 </div>
               </div>
             </div>
@@ -68,9 +68,9 @@ export function Hero() {
             {/* Right side - Hero image */}
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
-                <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1649783467344-4dfdb3b55036?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjB2ZWN0b3IlMjBkZXNpZ24lMjBpbGx1c3RyYXRpb258ZW58MXx8fHwxNzU3ODU0MTE4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                  alt="Geometric design illustration"
+                <img
+                  src="/attached_assets/generated_images/Logora_design_tool_interface_20caf41a.png"
+                  alt="Logora design tool interface showing brand identity creation in progress"
                   className="w-full h-96 object-cover"
                 />
                 
